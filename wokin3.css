@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 2.5rem;
+  color: var(--h5);
+  border-bottom-style: solid var(--h5);
+}
+h2 {
+  font-size: 1.5rem;
+
+  color: var(--h6);
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.col {
+  display: flex;
+  justify-content: center;
+}
+:root {
+  --h1: #3a7b99;
+  --h2: #558fac;
+  --h3: #9fd0e0;
+  --H4: #ffffff;
+  --h5: #203d4a;
+  --h7: rgba(217, 235, 241, 0.473);
+  --h6: black;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.hightlight {
+  color: var(--h1);
+}
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 80px 10px;
+}
+.section-title .fa-github {
+  color: var(--h6);
+}
+.section-title h1 {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 5px;
+  position: relative;
+}
+.section-title h1:before {
+  content: "";
+  left: 0;
+  position: absolute;
+  height: 3px;
+  right: 0%;
+  background-color: var(--h3);
+  bottom: 0px;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.backhome {
+  position: relative;
+  top: 38px;
+  font-size: 20px;
+  left: 20px;
+  color: var(--h5);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.iconnav {
+  position: relative;
+  top: 38px;
+  right: 30px;
+  font-size: 28px;
+  color: var(--h5);
+}
+
+* .header {
+  padding: 0px 30px;
+}
+
+/* in3 edit  */
+.section-titlee {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 70px 0px;
+}
+.project-title {
+  display: flex;
+text-align: left;
+  
+  width: 100%;
+  font-weight: 800;
+  font-size: 1.7rem;
+  color: var(--h5);
+  margin-bottom: 20px;
+  padding: 10px 40px;
+}
+.project-title .projectname {
+  color: var(--h1);
+  padding-left: 10px;
+}
+
+.project_section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  background-color: var(--h7);
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.project-subtitle {
+  width: 40%; 
+  position: relative;
+  padding-right: 1rem;
+  justify-content: center;
+}
+.project-wrapper {
+  position: sticky;
+  height: 20%;
+
+  top: 5%;
+}
+
+.project-wrapper h2 {
+  color: var(--h5);
+  padding-left: 10px;
+  font-weight: 300;
+  font-size: 1.1rem;
+  border-radius: 10px;
+
+  background-color:var(--H4);
+ box-shadow: 3px 4px 2px 0px var(--h2);
+  background: blur(20px);
+}
+
+
+
+.project-sideimg {
+  width: 60%;
+  height: 100%;
+  z-index: 11;
+  opacity: 1;
+}
+.project-sideimg img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width:1000px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.9rem;
+    } 
+}
+@media screen and (max-width:840px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.8rem;
+    } 
+    .project-title {
+        font-size: 1.5rem;
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width:744px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.7rem;
+    } 
+    .project-title {
+        font-size: 1.5rem;
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width:680px){
+.section-title h1{
+    font-size: 1.7rem;
+}
+
+    .project-wrapper h2 {
+
+        font-size: 0.6rem;
+    } 
+    .project-title {
+        font-size: 1.4rem;
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width:614px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.5rem;
+    } 
+    .project-title {
+        font-size: 1.3rem;
+        padding-left: 1px;
+    }
+
+}
+@media screen and (max-width:420px){
+
+.section-title h1{
+    font-size: 1.5rem;
+}
+    .project-wrapper h2 {
+
+        font-size: 0.4rem;
+    }   .project-title {
+        font-size: 1.2rem;
+        padding-left: 1px;
+    }
+}
+@media screen and (max-width:375px){
+
+    .project_section{
+        padding: 8px;
+    }
+
+    .project-wrapper h2 {
+
+        font-size: 0.4rem;
+    } 
+}
+@media screen and (max-width:300px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.2rem;
+    } 
+}
+@media screen and (max-width:px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.5rem;
+    } 
+}
+@media screen and (max-width:px){
+
+
+    .project-wrapper h2 {
+
+        font-size: 0.4rem;
+    } 
+}

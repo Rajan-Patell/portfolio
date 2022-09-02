@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body{
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+   
+}
+html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    font-size: 45px;
+    color: var(--h5);
+    border-bottom-style: solid var(--h5);
+  }
+  h2 {
+    font-size: 10px;
+    color: var(--h6);
+  }
+:root {
+    --h1: #3a7b99;
+    --h2: #558fac;
+    --h3: #9fd0e0;
+    --H4: #ffffff;
+    --h5: #203d4a;
+    --h7: rgba(217, 235, 241, 0.473);
+    --h6: black;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hightlight {
+    color: var(--h1);
+  }
+ 
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+
+    margin: 0 0 5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title h1:before{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 3px;
+    right: 32%;
+    background-color:var(--h3);
+    bottom: 0px;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-right{
+    text-align: right!important;
+}
+.portfolio{
+    background-color: white;
+    padding: 100px 7px;
+}
+.portfolio .section-title h1:before{
+    left: 30%;
+}
+.portfolio .filter-buttons{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.portfolio .filter-buttons ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+i{
+    color: var(--h5);
+}
+.portfolio .filter-buttons ul li{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px 8px;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+    padding-bottom: 0px;
+}
+.portfolio .filter-buttons ul li.active{
+    color:var(--h5);
+    border-bottom: 2px solid var(--h3);
+}
+.portfolio .portfolio-gallery{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .portfolio-gallery .item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
+  
+}
+.portfolio .portfolio-gallery .item .inner{
+    position: relative;
+    padding: 25px;
+}
+.portfolio .portfolio-gallery .item img{
+    width: 100%;
+    display: block;
+    
+}
+ 
+@media(max-width:767px){
+ 
+    .portfolio .portfolio-gallery .item{
+        flex:0 0 50% ;
+        max-width: 50%;
+        position: relative;
+        padding:8px ;
+    }
+    
+}
+@media(max-width:500px){
+ 
+    .portfolio .portfolio-gallery .item{
+        flex:0 0 100% ;
+        max-width: 100%; }
+}
+img {
+    display: block;
+    /* width: 100%; */
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: none;
+    box-shadow: 8px 8px 19px 1px rgb(57, 56, 56);
+  }
+  .backhome{
+    position: relative;
+    top: 38px;
+    font-size: 20px;
+    left: 20px;
+    color: var(--h5);
+  }
+  .nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.iconnav{
+    position: relative;
+    top: 38px;
+right: 30px;
+font-size: 28px;
+    color: var(--h5);
+}
+
+.inner h2{
+    font-size: 15px;
+    color: var(--h6);
+  }
+
+
+  /* in3 edit  */
+  .section-titlee{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin:70px 0px;
+}
+.section-titlee h1{
+    display: inline-block;
+    font-size: 35px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+
+    margin: 0 0 5px;
+    position: relative;
+    padding-bottom: 10px;
+}
+  .section-titlee h1:before {
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 3px;
+    right: -1%;
+    background-color: var(--h3);
+    bottom: 0px;
+}
+.project_section{
+    width: 100%;
+    position: relative;
+    
+    background-color: var(--h7);
+    padding: 0px 20px;
+}
+.pj1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+
+}
+.pj1 h3{
+    font-size: x-large;
+    color: var(--h2);
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.pj1 p{
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: poppins;
+    color: var(--h5);
+}
+.header{
+    padding:0px 30px;
+}
