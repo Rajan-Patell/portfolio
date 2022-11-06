@@ -2,9 +2,9 @@
 
 
  var typingEffect = new Typed(".multitext",{
-    strings : ["Frontend Devloper","Photographer","Photo Designer"],
+    strings : ["UI & UX Designer","Photographer","Photo Editor"],
     loop : true,
-    typeSpeed : 80,
+    typeSpeed : 84,
     backSpeed : 5,
     startDelay : 100,
     backDelay : 100
