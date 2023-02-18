@@ -3,6 +3,7 @@
 body{
     margin: 0;
     font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
    
 }
 html {
